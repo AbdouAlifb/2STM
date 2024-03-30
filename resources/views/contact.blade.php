@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Industro - Industrial HTML Template</title>
+    <title>2ASTM-MAROC</title>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -103,7 +104,7 @@
             <h1 class="display-3 text-white animated slideInRight">Contact</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
@@ -121,10 +122,9 @@
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Phone Number</h4>
-                        <p class="mb-2">+012 345 67890</p>
-                        <p class="mb-4">+012 345 67890</p>
-                        <a class="btn btn-primary px-4" href="tel:+0123456789">Call Now <i
+                        <h4 class="mb-3">TÉLÉPHONE </h4>
+                        <p class="mb-2">08 08 57 57 21</p>
+                        <a class="btn btn-primary px-4" href="tel:+0123456789">Appelle maintenant <i
                                 class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -133,10 +133,9 @@
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-envelope-open fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Email Address</h4>
-                        <p class="mb-2">info@example.com</p>
-                        <p class="mb-4">support@example.com</p>
-                        <a class="btn btn-primary px-4" href="mailto:info@example.com">Email Now <i
+                        <h4 class="mb-3">E-MAIL </h4>
+                        <p class="mb-2">contact@2stm-maroc.com</p>
+                        <a class="btn btn-primary px-4" href="mailto:info@example.com">Email maintenant <i
                                 class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -145,10 +144,8 @@
                         <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                         </div>
-                        <h4 class="mb-3">Office Address</h4>
-                        <p class="mb-2">+012 345 67890</p>
-                        <p class="mb-4">+012 345 67890</p>
-                        <a class="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9"
+                        <h4 class="mb-3">Address</h4>
+                        <a class="btn btn-primary px-4" href="https://www.google.com/maps?ll=31.634725,-8.042995&z=20&t=m&hl=en-GB&gl=US&mapclient=embed"
                             target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -163,35 +160,10 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                    <h1 class="display-5 mb-4">If You Have Any Queries, Please Feel Free To Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
-                        with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
-                        done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Call Us</h6>
-                                    <span>+012 345 67890</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-envelope text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Mail Us</h6>
-                                    <span>info@example.com</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="fw-medium text-uppercase text-primary mb-2">CONTACTEZ-NOUS</p>
+                    <h1 class="display-5 mb-4">Si vous avez des questions, n'hésitez pas à nous contacter</h1>
+                   
+                    
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <form>
@@ -199,19 +171,19 @@
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                    <label for="name">Votre nom</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                    <label for="email">Votre Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <label for="subject">Sujet</label>
                                 </div>
                             </div>
                             <div class="col-12">

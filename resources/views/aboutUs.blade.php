@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Industro - Industrial HTML Template</title>
+    <title>2ASTM-MAROC</title>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -100,11 +101,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">About Us</h1>
+            <h1 class="display-3 text-white animated slideInRight">À propos</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
-                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">À propos</li>
                 </ol>
             </nav>
         </div>
@@ -116,34 +117,77 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="row gx-3 h-100">
-                        <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-1.jpg">
-                        </div>
-                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-2.jpg">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
-                    <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="fw-medium text-uppercase text-primary mb-2">Qui sommes-nous ?</p>
+                    <h1 class="display-5 mb-4">Nous sommes leaders sur le marché industriel</h1>
+                    <p class="mb-4"  style="text-align: justify;">
+                    Installée à Marrakech, 2STM (Société Solutions Les Travaux Mécaniques)
+est une entreprise industrielle de maintenance, de réparation et d'usinage fondée
+il y a près de 25 ans par Mohamed BOUJGHAD.
+
+2STM est spécialisée dans la réparation, l'usinage de petites séries et la
+soudure, l'entreprise charentaise travaille avec tous types d'aciers et de matières
+plastiques. Les réparations et aménagements de machines proposés par SI leur
+permettent l'élaboration de nouveaux matériaux.
+
+L'entreprise est par ailleurs dotée de nombreuses machines : Une
+rectifieuse cylindrique, quatre tours et trois fraiseuses " traditionnelles"... pour
+répondre à des demandes très diverses de nombreuses entreprises.
+
+Développant son offre dans la maintenance extérieure, 2STM propose des
+solutions clé en main, couvrant le ciblage de la panne, sa réparation et la
+réinstallation de la machine. Ce service permet aux clients de l'entreprise de
+n'avoir qu'un seul interlocuteur pour leurs projets.
+
+L'entreprise dispose d'un stock important de matières premières, d'un parc
+de véhicule autonome et d'un réel savoir-faire, porté par des salariés fidèles,
+comptant en moyenne plus de 25 ans d'ancienneté dans l'entreprise.
+
+Les projets des clients de 2STM donnent lieu à de véritables échanges où
+les difficultés se règlent " autour d'une table " et où chacun se remet en question
+de façon permanente afin d'aider l'entreprise à progresser et évoluer. 
+Avec le développement des technologies, SI a étendu son activité bien au-delà
+de la Charente. Le transport n'étant plus une contrainte, 2STM intervient tant en
+Marrakech et tous les régions Marocaines pour de grandes entreprises de tout
+secteur. 
+Les clients de 2STM sont d'ailleurs très éclectiques, allant des TPE aux
+acteurs emblématiques de l'industrie, couvrant des secteurs aussi variés que
+l'imprimerie, l'agro-alimentaire, le BTP ou les entreprises de matériel agricole.
+
+2STM précise n'avoir que des retours positifs avec sa clientèle qui
+propose chaque jour de nouveaux défis à relever pour son équipe.
+
+2STM compte aujourd'hui plus de 15 collaborateurs, peut se targuer d'un
+chiffre d'affaires en progression constante.
+L'état esprit d'entrepreneur de l'entreprise a et ses perspectives de
+développement dans un secteur en perpétuelle évolution mais toujours empreint
+de savoir-faire artisanal.
+
+Notre entreprise est toujours dans un d’esprit d'entrepreneur de création des
+stratégies, des perspectives de développement, et formation continue soit court
+terme moyenne terme et long terme pour l'avenir sereinement, et satisfaction des
+clients.
+
+Dans un secteur qui est plein des concurrences et toujours d’évolution
+Notre objectif votre satisfaction
+
+Notre slogan <strong> « Nous ne sommes pas seuls mais nous sommes les meilleurs dans
+le secteur »</strong>
                     </p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
                             <h1 class="display-2">25</h1>
-                            <h5 class="text-white">Years of</h5>
-                            <h5 class="text-white">Experience</h5>
+                            <h5 class="text-white">Années d'</h5>
+                            <h5 class="text-white">Expérience</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Chemical Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Maintenance</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Mécanique</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Soudeur</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Fraisage</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Tournage</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Flexible et Garniture</p>
                         </div>
                     </div>
                     <div class="row pt-2">
@@ -153,8 +197,8 @@
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Email us</p>
-                                    <h5 class="mb-0">info@example.com</h5>
+                                    <p class="mb-2">Envoyez-nous un email</p>
+                                    <h5 class="mb-0">contact@2stm-maroc.com</h5>
                                 </div>
                             </div>
                         </div>
@@ -164,8 +208,8 @@
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Call us</p>
-                                    <h5 class="mb-0">+012 345 6789</h5>
+                                    <p class="mb-2">Appelez-nous</p>
+                                    <h5 class="mb-0">08 08 57 57 21</h5>
                                 </div>
                             </div>
                         </div>
@@ -213,87 +257,7 @@
     <!-- Facts End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Rob Miller</h5>
-                                <span class="text-primary">CEO & Founder</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Adam Crew</h5>
-                                <span class="text-primary">Project Manager</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Peter Farel</h5>
-                                <span class="text-primary">Engineer</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+    
 
 
     <!-- Video Modal Start -->

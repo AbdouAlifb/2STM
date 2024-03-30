@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Industro - Industrial HTML Template</title>
+    <title>2ASTM-MAROC</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -254,14 +254,14 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="img/feature.jpg" alt="">
-                        <span
+                        <img class="img-fluid w-100" src="img/nous.jpg" alt="">
+                        <!-- <span
                             class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
-                            style="width: 120px; height: 120px;"></span>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            style="width: 120px; height: 120px;"></span> -->
+                        <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -334,7 +334,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
@@ -403,51 +403,51 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Service End -->
 
 
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
-            <h1 class="display-5 text-white mb-5">See What We Have Completed Recently</h1>
+            <p class="fw-medium text-uppercase text-primary mb-2">NOS ACTIVITÉS</p>
+            <h1 class="display-5 text-white mb-5">Services spécialisés en mécanique et maintenance industrielle</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-1.jpg" alt="">
+            <a class="project-item" href="{{ route('maintenance') }}">
+                <img class="img-fluid" src="img/maintenance.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Auto Engineering</h5>
+                    <h5 class="text-primary mb-0">MAINTENANCE</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-2.jpg" alt="">
+            <a class="project-item" href="{{ route('mecanique') }}">
+                <img class="img-fluid" src="img/mecanique.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Civil Engineering</h5>
+                    <h5 class="text-primary mb-0">MÉCANIQUE</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-3.jpg" alt="">
+            <a class="project-item" href="{{ route('fraisage') }}">
+                <img class="img-fluid" src="img/fraisage2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Gas Engineering</h5>
+                    <h5 class="text-primary mb-0">FRAISAGE</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-4.jpg" alt="">
+            <a class="project-item" href="{{ route('soudure') }}">
+                <img class="img-fluid" src="img/soudeur.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Power Engineering</h5>
+                    <h5 class="text-primary mb-0">SOUDURE</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-5.jpg" alt="">
+            <a class="project-item" href="{{ route('garniture') }}">
+                <img class="img-fluid" src="img/garniture.png" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Energy Engineering</h5>
+                    <h5 class="text-primary mb-0">FLEXIBLE ET GARNITURE</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-6.jpg" alt="">
+            <a class="project-item" href="{{ route('tournage') }}">
+                <img class="img-fluid" src="img/tournage.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Water Engineering</h5>
+                    <h5 class="text-primary mb-0">TOURNAGE</h5>
                 </div>
             </a>
         </div>
@@ -455,7 +455,7 @@
     <!-- Project End -->
 
 
-    <!-- Team Start -->
+    <!-- Team Start
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -535,11 +535,11 @@
             </div>
         </div>
     </div>
-    <!-- Team End -->
+  Team End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Testimonial</p>
@@ -561,39 +561,10 @@
                         <span class="fst-italic">Profession</span>
                     </div>
                 </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
+                
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
