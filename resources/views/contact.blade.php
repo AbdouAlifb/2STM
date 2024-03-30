@@ -90,16 +90,7 @@ s0.parentNode.insertBefore(s1,s0);
             <a href="{{ route('home') }}" class="nav-item nav-link">Accueil</a>
             <a href="{{ route('about') }}" class="nav-item nav-link">À propos</a>
             <a href="{{ route('activities') }}" class="nav-item nav-link">Services</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                <div class="dropdown-menu bg-light m-0">
-                    <a href="#" class="dropdown-item">Projets</a>
-                    <a href="#" class="dropdown-item">Fonctionnalités</a>
-                    <a href="#" class="dropdown-item">Notre équipe</a>
-                    <a href="#" class="dropdown-item">Témoignages</a>
-                    <a href="#" class="dropdown-item">Page 404</a>
-                </div>
-            </div>
+           
             <a href="{{ route('contact') }}" class="nav-item nav-link active">Contact</a>
         </div>
         <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a>
