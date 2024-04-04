@@ -93,7 +93,7 @@ s0.parentNode.insertBefore(s1,s0);
             
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a>
+        <!-- <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a> -->
     </div>
 </nav>
 
@@ -121,12 +121,12 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="row g-5">
                 
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Qui sommes-nous ?</p>
+                    <p class="fw-medium text-uppercase  mb-2" style="color : #8C8C8C ;" >Qui sommes-nous ?</p>
                     <h1 class="display-5 mb-4">Nous sommes leaders sur le marché industriel</h1>
                     <p class="mb-4"  style="text-align: justify;">
                     Installée à Marrakech, 2STM (Société Solutions Les Travaux Mécaniques)
 est une entreprise industrielle de maintenance, de réparation et d'usinage fondée
-il y a près de 25 ans par Mohamed BOUJGHAD.
+il y a près de 30 ans par Mohamed BOUJGHAD.
 
 2STM est spécialisée dans la réparation, l'usinage de petites séries et la
 soudure, l'entreprise charentaise travaille avec tous types d'aciers et de matières
@@ -144,7 +144,7 @@ n'avoir qu'un seul interlocuteur pour leurs projets.
 
 L'entreprise dispose d'un stock important de matières premières, d'un parc
 de véhicule autonome et d'un réel savoir-faire, porté par des salariés fidèles,
-comptant en moyenne plus de 25 ans d'ancienneté dans l'entreprise.
+comptant en moyenne plus de 30 ans d'ancienneté dans l'entreprise.
 
 Les projets des clients de 2STM donnent lieu à de véritables échanges où
 les difficultés se règlent " autour d'une table " et où chacun se remet en question
@@ -178,24 +178,24 @@ Notre slogan <strong> « Nous ne sommes pas seuls mais nous sommes les meilleur
 le secteur »</strong>
                     </p>
                     <div class="d-flex align-items-center mb-4">
-                        <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">25</h1>
+                        <div class="flex-shrink-0  p-4"style="background-color : #9F9E9F ;">
+                            <h1 class="display-2">30</h1>
                             <h5 class="text-white">Années d'</h5>
                             <h5 class="text-white">Expérience</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Maintenance</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mécanique</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Soudeur</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Fraisage</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Tournage</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Flexible et Garniture</p>
+                            <p><i class="fa fa-check  me-2"></i>Maintenance</p>
+                            <p><i class="fa fa-check  me-2" style="color : #9F9E9F ;"></i>Mécanique</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Soudeur</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Fraisage</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Tournage</p>
+                            <p class="mb-0"><i class="fa fa-check  me-2"></i>Flexible et Garniture</p>
                         </div>
                     </div>
                     <div class="row pt-2">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle "style="background-color : #9F9E9F ;">
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
@@ -206,12 +206,12 @@ le secteur »</strong>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle "style="background-color : #9F9E9F ;">
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Appelez-nous</p>
-                                    <h5 class="mb-0">08 08 57 57 21</h5>
+                                    <h5 class="mb-0">08 08 57 57 21 / +212-6 61 34 24 06</h5>
                                 </div>
                             </div>
                         </div>
@@ -223,35 +223,35 @@ le secteur »</strong>
     <!-- About End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 p-5">
+<!-- Facts Start -->
+<div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                 <div class="text-center border p-5">
                     <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
+                    <h1 class="display-2  mb-0" style="color : #EAEAEA ;" data-toggle="counter-up">30</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Années d'expérience</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
+                    <h1 class="display-2  mb-0" style="color : #EAEAEA ;" data-toggle="counter-up">135</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Membres de l'équipe</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                    <h1 class="display-2  mb-0"style="color : #EAEAEA ;" data-toggle="counter-up">957</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Clients satisfaits</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
+                    <h1 class="display-2  mb-0"style="color : #EAEAEA ;" data-toggle="counter-up">1839</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Projets réalisés</span>
                 </div>
             </div>
         </div>
@@ -284,24 +284,20 @@ le secteur »</strong>
     <!-- Video Modal End -->
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Notre Bureau</h5>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Avenue Al Mouqaouama, Hay El Hassani Douar Sidi M'barek N°6 - Marrakech</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 661 34 24 06 / +212 661 20 95 13</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com / 2stm.maroc@gmail.com</p>
                     <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://web.facebook.com/solutions.industrielles.maroc"><i
+                    
+                        <a class="btn btn-square   rounded-circle me-2" style="background-color : #9F9E9F ;" color="white" href="https://web.facebook.com/solutions.industrielles.maroc"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                     
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -309,26 +305,19 @@ le secteur »</strong>
                         <a class="btn btn-link" href="{{ route('about') }}">À Propos De Nous</a>
                         <a class="btn btn-link" href="{{ route('contact') }}">Contactez-Nous</a>
                         <a class="btn btn-link" href="{{ route('activities') }}">Nos Services</a>
-                        <a class="btn btn-link" href="">Termes & Conditions</a>
-                        <a class="btn btn-link" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Heures d'Ouverture</h5>
-                        <p class="mb-1">Lundi - Vendredi</p>
+                        <p class="mb-1">Lundi - Samedi</p>
+                        <h6 class="text-light">08:00 - 19:00</h6>
+                        <p class="mb-1">Dimanche (Equipe permanante ) </p>
                         <h6 class="text-light">09:00 - 19:00</h6>
-                        <p class="mb-1">Samedi</p>
-                        <h6 class="text-light">09:00 - 12:00</h6>
-                        <p class="mb-1">Dimanche</p>
-                        <h6 class="text-light">Fermé</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Inscription Email </h5>
+                    <h5 class="text-white mb-4">Logo  </h5>
                     <p></p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                       <img src="img/logo2.jpeg" width="250px" alt="">
                     </div>
                 </div>
             </div>
@@ -337,14 +326,15 @@ le secteur »</strong>
     <!-- Footer End -->
 
 
+
     <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark py-4">
+    <div class="container-fluid copyright bg-dark py-4" >
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">2STM-MAROC</a>, All Right Reserved.
             </p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed
-                By: <a href="https://themewagon.com">ThemeWagon</a> </p>
+            <p class="mb-0" style="font-size: 7px;">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed By: <a href="https://themewagon.com">ThemeWagon</a></p>
+
         </div>
     </div>
     <!-- Copyright End -->

@@ -50,4 +50,9 @@ class PageController extends Controller
     {
         return view('services.maintenance');
     }
+    
+    public function hydromecanique()
+    {
+        return view('services.hydromecanique');
+    }
 }

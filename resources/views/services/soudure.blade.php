@@ -82,7 +82,7 @@
            
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a>
+        <!-- <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a> -->
     </div>
 </nav>
 
@@ -105,22 +105,39 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <div class="container-xxl py-5" style="position: relative;">
+    <div style="position: absolute; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.9) url('/img/logo.jpeg') no-repeat center center; background-size: 55%; opacity: 0.3; top: 0; left: 0; z-index: -1;"></div>
+  
+        <div class="container" style="position: relative; z-index: 1;">
             <div class="row g-5">
                 
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2">Soudure</p>
                     <!-- <h1 class="display-5 mb-4">Nous sommes leaders sur le marché industriel</h1> -->
+
                     <p class="mb-4"  style="text-align: justify;">
                     Notre équipe vous propose un service de soudure avec plusieurs postes de soudure ce qui nous permet d'intervenir aussi bien dans notre atelier que chez vous.
 
  Vous apporterez un maximum de réponses à vos besoins.
                     </p>
+                    <h2 class="display-5 mb-4">Soudure Argon</h2>
+                    <p class="mb-4"  style="text-align: justify;">
+                   
+                    Nous offrons un service spécialisé en soudure argon, idéale pour les métaux non ferreux tels que l'aluminium et l'acier inoxydable. Cette technique, connue pour sa précision et sa propreté, utilise un gaz inerte (argon) pour créer des soudures d'une grande finesse sans oxydation, assurant ainsi des assemblages d'une excellente qualité et d'une résistance remarquable.
+                    </p>
+                    <h2 class="display-5 mb-4">Soudure Électrique</h2>
+                    <p class="mb-4"  style="text-align: justify;">
+                    Notre expertise en soudure électrique nous permet de répondre à une large gamme de besoins industriels. Cette méthode, adaptée pour une variété de métaux, est reconnue pour sa robustesse et sa polyvalence. Nos soudeurs qualifiés maîtrisent cette technique pour offrir des joints soudés solides, adaptés à des applications exigeant une grande résilience.
+                    </p>
+                    <h2 class="display-5 mb-4">Chaudronnerie et Soudure</h2>
+                    <p class="mb-4"  style="text-align: justify;">
+                    La chaudronnerie et la soudure sont au cœur de nos compétences, permettant la fabrication et la réparation de pièces et structures métalliques de toutes dimensions. Nos services englobent la conception, la modification et la réparation de composants en métal, allant des pièces individuelles aux structures complexes, en utilisant des techniques de soudure adaptées à chaque projet pour assurer la plus haute qualité et durabilité
+                    </p>
                      
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- About End -->
 
@@ -155,24 +172,20 @@
     <!-- Video Modal End -->
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Notre Bureau</h5>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Avenue Al Mouqaouama, Hay El Hassani Douar Sidi M'barek N°6 - Marrakech</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 661 34 24 06 / +212 661 20 95 13</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com / 2stm.maroc@gmail.com</p>
                     <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://web.facebook.com/solutions.industrielles.maroc"><i
+                    
+                        <a class="btn btn-square   rounded-circle me-2" style="background-color : #9F9E9F ;" color="white" href="https://web.facebook.com/solutions.industrielles.maroc"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                     
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -180,26 +193,19 @@
                         <a class="btn btn-link" href="{{ route('about') }}">À Propos De Nous</a>
                         <a class="btn btn-link" href="{{ route('contact') }}">Contactez-Nous</a>
                         <a class="btn btn-link" href="{{ route('activities') }}">Nos Services</a>
-                        <a class="btn btn-link" href="">Termes & Conditions</a>
-                        <a class="btn btn-link" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Heures d'Ouverture</h5>
-                        <p class="mb-1">Lundi - Vendredi</p>
+                        <p class="mb-1">Lundi - Samedi</p>
+                        <h6 class="text-light">08:00 - 19:00</h6>
+                        <p class="mb-1">Dimanche (Equipe permanante ) </p>
                         <h6 class="text-light">09:00 - 19:00</h6>
-                        <p class="mb-1">Samedi</p>
-                        <h6 class="text-light">09:00 - 12:00</h6>
-                        <p class="mb-1">Dimanche</p>
-                        <h6 class="text-light">Fermé</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Inscription Email </h5>
+                    <h5 class="text-white mb-4">Logo  </h5>
                     <p></p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                       <img src="img/logo2.jpeg" width="250px" alt="">
                     </div>
                 </div>
             </div>
@@ -209,13 +215,13 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark py-4">
+    <div class="container-fluid copyright bg-dark py-4" >
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">2STM-MAROC</a>, All Right Reserved.
             </p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed
-                By: <a href="https://themewagon.com">ThemeWagon</a> </p>
+            <p class="mb-0" style="font-size: 7px;">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed By: <a href="https://themewagon.com">ThemeWagon</a></p>
+
         </div>
     </div>
     <!-- Copyright End -->

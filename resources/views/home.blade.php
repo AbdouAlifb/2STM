@@ -75,10 +75,10 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="col-lg-6 ps-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center text-white">
                     <span>Suivez-nous:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.facebook.com/Solution-Industrielle-396802134064219/"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
             <div class="col-lg-6 text-end">
@@ -95,8 +95,10 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
     <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">2STM</h1>
-    </a>
+    <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+    <h1 class="text-white m-0">2STM</h1>
+</a>
+
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -108,7 +110,7 @@ s0.parentNode.insertBefore(s1,s0);
            
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a>
+        <!-- <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Obtenir un devis</a> -->
     </div>
 </nav>
 
@@ -119,30 +121,56 @@ s0.parentNode.insertBefore(s1,s0);
     <div class="container-fluid px-0 mb-5" >
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                    <img class="w-100" src="img/carousel-1N.jpg" alt="Image">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img class="w-100" src="img/carousel-4N.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 ans d'expérience professionnelle</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Entreprise fournissant des solutions industrielles</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Découvrir plus</a>
+                                <p class="fs-5 fw-medium  text-uppercase animated slideInRight"style="color : #EAEAEA ;">+30 ans d'expérience professionnelle</p>
+
+                                <h1 class="display-1 text-white mb-5 animated slideInRight">Société Solutions Des Travaux Mécaniques </h1>
+
+
+                                    <h2 class="display-8 text-white mb-5 animated slideInRight" >Au-delà de la mécanique, 2STM forge l'avenir industriel </h2>
+                                    <!-- <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Découvrir plus</a> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-100" src="img/carousel-2N.jpg" alt="Image">
+                <div class="carousel-item " data-bs-interval="4000">
+                    <img class="w-100" src="img/carousel-1N.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 ans d'expérience professionnelle</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Excellence en mécanique, innovation à chaque tour</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Découvrir plus</a>
-                                </div>
+                                <p class="fs-5 fw-medium  text-uppercase animated slideInRight"style="color : #EAEAEA ;">+30 ans d'expérience professionnelle</p>
+
+<h1 class="display-1 text-white mb-5 animated slideInRight">Société Solutions Des Travaux Mécaniques </h1>
+
+
+    <h2 class="display-8 text-white mb-5 animated slideInRight" >Au-delà de la mécanique, 2STM forge l'avenir industriel </h2>
+    <!-- <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Découvrir plus</a> -->
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="w-100" src="img/carousel-3N.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                <p class="fs-5 fw-medium  text-uppercase animated slideInRight"style="color : #EAEAEA ;">+30 ans d'expérience professionnelle</p>
+
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Société Solutions Des Travaux Mécaniques </h1>
+
+
+                                        <h2 class="display-8 text-white mb-5 animated slideInRight" >Au-delà de la mécanique, 2STM forge l'avenir industriel </h2>
+                                        <!-- <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Découvrir plus</a> -->
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -176,32 +204,32 @@ s0.parentNode.insertBefore(s1,s0);
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Qui sommes-nous ?</p>
+                    <p class="fw-medium text-uppercase  mb-2" style="color : #6f6966 ;">Qui sommes-nous ?</p>
                     <h1 class="display-5 mb-4">Nous sommes leaders sur le marché industriel</h1>
                     <p class="mb-4">La Société Solutions Des Travaux Mécaniques (2STM), basée à Marrakech, est une entreprise industrielle 
-                        spécialisée dans l'usinage de précision, la maintenance et la réparation. Fondée il y a près de 25 ans par Mohamed BOUJRHAD,
+                        spécialisée dans l'usinage de précision, la maintenance et la réparation. Fondée il y a près de 30 ans par Mohamed BOUJGHAD,
                          2STM se distingue par sa conception et sa fabrication 
-                        de petites et grandes séries, ainsi que par ses compétences en soudure et en travaux mécaniques. <a class="fw-medium text-uppercase text-primary mb-2" href="{{ route('about') }}">>Lire la suite..</a>
+                        de petites et grandes séries, ainsi que par ses compétences en soudure et en travaux mécaniques. <a style="color : #6f6966 ;" class="fw-medium text-uppercase  mb-2" href="{{ route('about') }}">>Lire la suite..</a>
                     </p>
                     <div class="d-flex align-items-center mb-4">
-                        <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">25</h1>
+                        <div class="flex-shrink-0  p-4" style="background-color : #9F9E9F ;">
+                            <h1 class="display-2">30</h1>
                             <h5 class="text-white">Années d'</h5>
                             <h5 class="text-white">Expérience</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Maintenance</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mécanique</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Soudeur</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Fraisage</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Tournage</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Flexible et Garniture</p>
+                            <p><i class="fa fa-check  me-2" style="color : #9F9E9F ;"></i>Maintenance</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Mécanique</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Soudeur</p>
+                            <p><i class="fa fa-check  me-2"style="color :#9F9E9F ;"></i>Fraisage</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Tournage</p>
+                            <p class="mb-0"><i class="fa fa-check  me-2"></i>Flexible et Garniture</p>
                         </div>
                     </div>
                     <div class="row pt-2">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle "style="background-color : #9F9E9F ;">
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
@@ -212,12 +240,12 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle "style="background-color : #9F9E9F ;">
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Appelez-nous</p>
-                                    <h5 class="mb-0">08 08 57 57 21</h5>
+                                    <h5 class="mb-0">08 08 57 57 21 <br> +212-6 61 34 24 06</h5>
                                 </div>
                             </div>
                         </div>
@@ -235,28 +263,28 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                 <div class="text-center border p-5">
                     <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
+                    <h1 class="display-2  mb-0" style="color : #EAEAEA ;" data-toggle="counter-up">30</h1>
                     <span class="fs-5 fw-semi-bold text-white">Années d'expérience</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
+                    <h1 class="display-2  mb-0" style="color : #EAEAEA ;" data-toggle="counter-up">135</h1>
                     <span class="fs-5 fw-semi-bold text-white">Membres de l'équipe</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
+                    <h1 class="display-2  mb-0"style="color : #EAEAEA ;" data-toggle="counter-up">957</h1>
                     <span class="fs-5 fw-semi-bold text-white">Clients satisfaits</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
+                    <h1 class="display-2  mb-0"style="color : #EAEAEA ;" data-toggle="counter-up">1839</h1>
                     <span class="fs-5 fw-semi-bold text-white">Projets réalisés</span>
                 </div>
             </div>
@@ -282,15 +310,15 @@ s0.parentNode.insertBefore(s1,s0);
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Pourquoi nous choisir !</p>
+                    <p class="fw-medium text-uppercase  mb-2" style="color : #9F9E9F ;" >Pourquoi nous choisir !</p>
                     <h1 class="display-5 mb-4">Quelques raisons pour lesquelles les gens nous choisissent !</h1>
-                    <p class="mb-4">Avec près de 25 ans d'expérience dans l'usinage de précision, la maintenance et la réparation,
+                    <p class="mb-4">Avec près de 30 ans d'expérience dans l'usinage de précision, la maintenance et la réparation,
                          nous avons acquis une expertise inégalée dans notre domaine.
                     </p>
                     <div class="row gy-4">
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle " style="background-color : #9F9E9F ;">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
@@ -300,7 +328,7 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle " style="background-color : #9F9E9F ;">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
@@ -312,7 +340,7 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle " style="background-color : #9F9E9F ;">
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
@@ -366,9 +394,9 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
-                                <hr class="w-25">
+                                <hr class="w-30">
                                 <h3 class="mb-0">Civil & Gas Engineering</h3>
-                                <hr class="w-25">
+                                <hr class="w-30">
                             </div>
                             <div class="service-text">
                                 <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
@@ -386,9 +414,9 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
-                                <hr class="w-25">
+                                <hr class="w-30">
                                 <h3 class="mb-0">Power & Energy Engineering</h3>
-                                <hr class="w-25">
+                                <hr class="w-30">
                             </div>
                             <div class="service-text">
                                 <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
@@ -406,9 +434,9 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
-                                <hr class="w-25">
+                                <hr class="w-30">
                                 <h3 class="mb-0">Plumbing & Water Treatment</h3>
-                                <hr class="w-25">
+                                <hr class="w-30">
                             </div>
                             <div class="service-text">
                                 <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
@@ -427,46 +455,58 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-primary mb-2">NOS ACTIVITÉS</p>
+            <p class="fw-medium text-uppercase  mb-2" style="color : #EAEAEA ;">NOS ACTIVITÉS</p>
             <h1 class="display-5 text-white mb-5">Services spécialisés en mécanique et maintenance industrielle</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="{{ route('maintenance') }}">
-                <img class="img-fluid" src="img/maintenance.jpg" alt="">
+            <a class="project-item" href="{{ route('hydromecanique') }}">
+                <img class="img-fluid" src="img/hyrdo3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">MAINTENANCE</h5>
+                    <h5 class=" mb-0" style="color : #EAEAEA ;">HYDROMECANIQUE</h5>
                 </div>
             </a>
             <a class="project-item" href="{{ route('mecanique') }}">
                 <img class="img-fluid" src="img/mecanique.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">MÉCANIQUE</h5>
+                    <h5 class=" mb-0" style="color : #EAEAEA ;">MÉCANIQUE Industrielle </h5>
                 </div>
             </a>
-            <a class="project-item" href="{{ route('fraisage') }}">
-                <img class="img-fluid" src="img/fraisage2.jpg" alt="">
+            <a class="project-item" href="{{ route('maintenance') }}">
+                <img class="img-fluid" src="img/maintenance.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">FRAISAGE</h5>
-                </div>
-            </a>
-            <a class="project-item" href="{{ route('soudure') }}">
-                <img class="img-fluid" src="img/soudeur.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">SOUDURE</h5>
-                </div>
-            </a>
-            <a class="project-item" href="{{ route('garniture') }}">
-                <img class="img-fluid" src="img/garniture.png" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">FLEXIBLE ET GARNITURE</h5>
+                    <h5 class=" mb-0" style="color : #EAEAEA ;">MAINTENANCE</h5>
                 </div>
             </a>
             <a class="project-item" href="{{ route('tournage') }}">
                 <img class="img-fluid" src="img/tournage.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">TOURNAGE</h5>
+                    <h5 class=" mb-0"style="color : #EAEAEA ;">TOURNAGE</h5>
                 </div>
             </a>
+            <a class="project-item" href="{{ route('fraisage') }}">
+                <img class="img-fluid" src="img/fraisage2.jpg" alt="">
+                <div class="project-title">
+                    <h5 class=" mb-0"style="color : #EAEAEA ;">FRAISAGE</h5>
+                </div>
+            </a>
+            <a class="project-item" href="{{ route('soudure') }}">
+                <img class="img-fluid" src="img/soudeur.jpg" alt="">
+                <div class="project-title">
+                    <h5 class=" mb-0"style="color : #EAEAEA ;">SOUDURE</h5>
+                </div>
+            </a>
+            <a class="project-item" href="{{ route('garniture') }}">
+                <img class="img-fluid" src="img/garniture.png" alt="">
+                <div class="project-title">
+                    <h5 class=" mb-0"style="color : #EAEAEA ;">FLEXIBLE ET GARNITURE</h5>
+                </div>
+            </a>
+            
+           
+            
+           
+           
+            
         </div>
     </div>
     <!-- Project End -->
@@ -581,8 +621,8 @@ s0.parentNode.insertBefore(s1,s0);
                 
             </div>
         </div>
-    </div> -->
-    <!-- Testimonial End -->
+    </div> 
+     Testimonial End -->
 
 
     <!-- Footer Start -->
@@ -592,17 +632,14 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Notre Bureau</h5>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Avenue Al Mouqaouama, Hay El Hassani Douar Sidi M'barek N°6 - Marrakech</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 661 34 24 06 / +212 661 20 95 13</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>  +212 661 20 95 13 / +212 661 34 24 06</p>
+
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@2stm-maroc.com / 2stm.maroc@gmail.com</p>
                     <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://web.facebook.com/solutions.industrielles.maroc"><i
+                    
+                        <a class="btn btn-square   rounded-circle me-2" style="background-color : #9F9E9F ;" color="white" href="https://web.facebook.com/solutions.industrielles.maroc"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                     
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -610,26 +647,19 @@ s0.parentNode.insertBefore(s1,s0);
                         <a class="btn btn-link" href="{{ route('about') }}">À Propos De Nous</a>
                         <a class="btn btn-link" href="{{ route('contact') }}">Contactez-Nous</a>
                         <a class="btn btn-link" href="{{ route('activities') }}">Nos Services</a>
-                        <a class="btn btn-link" href="">Termes & Conditions</a>
-                        <a class="btn btn-link" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Heures d'Ouverture</h5>
-                        <p class="mb-1">Lundi - Vendredi</p>
+                        <p class="mb-1">Lundi - Samedi</p>
+                        <h6 class="text-light">08:00 - 19:00</h6>
+                        <p class="mb-1">Dimanche (Equipe permanante ) </p>
                         <h6 class="text-light">09:00 - 19:00</h6>
-                        <p class="mb-1">Samedi</p>
-                        <h6 class="text-light">09:00 - 12:00</h6>
-                        <p class="mb-1">Dimanche</p>
-                        <h6 class="text-light">Fermé</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Inscription Email </h5>
+                    <h5 class="text-white mb-4">Logo  </h5>
                     <p></p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                       <img src="img/logo2.jpeg" width="250px" alt="">
                     </div>
                 </div>
             </div>

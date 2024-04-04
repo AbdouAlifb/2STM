@@ -16,38 +16,19 @@ class ContactMail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($contact)
     {
-        //
         $this->contact = $contact;
     }
+    
 
     public function build()
     {
-    return $this->from('exemple@votreapp.com')
+    return $this->from('ali.abdoufb@gmail.com')
     ->subject('Nouveau message de contact')
     ->view('contactM');
     }
-    /**
-     * Get the message envelope.
-     */
-    public function envelope(): Envelope
-    {
-        return new Envelope(
-            subject: 'Contact Mail',
-        );
-    }
-
-    /**
-     * Get the message content definition.
-     */
-    public function content(): Content
-    {
-        return new Content(
-            view: 'view.name',
-        );
-    }
-
+   
     /**
      * Get the attachments for the message.
      *
