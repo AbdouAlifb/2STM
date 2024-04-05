@@ -90,7 +90,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header4 py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 text-white animated slideInRight">Soudure</h1>
             <nav aria-label="breadcrumb">
@@ -129,7 +129,7 @@
                     <p class="mb-4"  style="text-align: justify;">
                     Notre expertise en soudure électrique nous permet de répondre à une large gamme de besoins industriels. Cette méthode, adaptée pour une variété de métaux, est reconnue pour sa robustesse et sa polyvalence. Nos soudeurs qualifiés maîtrisent cette technique pour offrir des joints soudés solides, adaptés à des applications exigeant une grande résilience.
                     </p>
-                    <h2 class="display-5 mb-4">Chaudronnerie et Soudure</h2>
+                    <h2 class="display-5 mb-4">Soudure</h2>
                     <p class="mb-4"  style="text-align: justify;">
                     La chaudronnerie et la soudure sont au cœur de nos compétences, permettant la fabrication et la réparation de pièces et structures métalliques de toutes dimensions. Nos services englobent la conception, la modification et la réparation de composants en métal, allant des pièces individuelles aux structures complexes, en utilisant des techniques de soudure adaptées à chaque projet pour assurer la plus haute qualité et durabilité
                     </p>

@@ -125,8 +125,16 @@ s0.parentNode.insertBefore(s1,s0);
                             <i class="fa fa-phone-alt fa-2x "  style="color : #9F9E9F ;"></i>
                         </div>
                         <h4 class="mb-3">TÉLÉPHONE </h4>
-                        <p class="mb-2"> +212 661-209513 / 08 08 57 57 21 <br> +212-661342406</p>
-                        <br>
+                        <p class="mb-2">  
+                        <i class="fa fa-fax" style="color : #9F9E9F ;"> </i>|
+                        <i class="fas fa-tty"></i>
+
+
+                             08 08 57 57 21    <br> 
+                        <i class="fa fa-phone-alt fa-1x "  style="color : #9F9E9F ;"> </i>
+                        +212 661-209513         <br> 
+                            <i class="fa fa-phone-alt fa-1x "  style="color : #9F9E9F ;"> </i>
+                             +212-661342406</p>
                         
                         <a class="btn btn-primary px-4" href="tel:+0123456789">Appelle maintenant <i
                                 class="fa fa-arrow-right ms-2" ></i></a>
@@ -174,7 +182,7 @@ s0.parentNode.insertBefore(s1,s0);
                     
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <form action="{{ route('contact.store') }}" method="POST">
+                 <form action="{{ route('contact.store') }}" method="POST">
     @csrf
     <div class="row g-3">
         <div class="col-md-6">

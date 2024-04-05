@@ -94,10 +94,10 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-    <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
-    <h1 class="text-white m-0">2STM</h1>
-</a>
+            <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
+            <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+            <!-- <h1 class="text-white m-0">2STM</h1> -->
+        </a>
 
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -122,7 +122,7 @@ s0.parentNode.insertBefore(s1,s0);
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
-                    <img class="w-100" src="img/carousel-4N.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-5N.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">

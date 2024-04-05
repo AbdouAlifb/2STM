@@ -79,9 +79,10 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">2STM</h1>
-    </a>
+            <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
+            <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+            <!-- <h1 class="text-white m-0">2STM</h1> -->
+        </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>

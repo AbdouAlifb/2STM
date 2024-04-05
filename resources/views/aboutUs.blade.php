@@ -79,9 +79,10 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">2STM</h1>
-    </a>
+            <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
+            <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+            <!-- <h1 class="text-white m-0">2STM</h1> -->
+        </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -116,8 +117,9 @@ s0.parentNode.insertBefore(s1,s0);
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <div class="container-xxl py-5" style="position: relative;">
+    <div style="position: absolute; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.9) url('/img/logo.jpeg') no-repeat center center; background-size: 70 %; opacity: 0.3; top: 0; left: 0; z-index: -1;"></div>
+  
             <div class="row g-5">
                 
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
@@ -218,6 +220,7 @@ le secteur »</strong>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <!-- About End -->

@@ -68,9 +68,10 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">2STM</h1>
-    </a>
+            <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
+            <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+            <!-- <h1 class="text-white m-0">2STM</h1> -->
+        </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -90,7 +91,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header5 py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 text-white animated slideInRight">Flexible et Garniture</h1>
             <nav aria-label="breadcrumb">
@@ -106,14 +107,14 @@
 
     <!-- About Start -->
     <div class="container-xxl py-5" style="position: relative;">
-    <div style="position: absolute; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.9) url('/img/logo.jpeg') no-repeat center center; background-size: 55%; opacity: 0.3; top: 0; left: 0; z-index: -1;"></div>
+    <div style="position: absolute; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.9) url('/img/logo.jpeg') no-repeat center center; background-size: 50%; opacity: 0.3; top: 0; left: 0; z-index: -1;"></div>
   
             <div class="row g-5">
                 
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2">Flexible et Garniture</p>
                     <p class="mb-4"  style="text-align: justify;">
-                    Atelier 2STM est équipé pour assurer le service de fabrication et réparation de flexible sur mesure et garniture de frein Embrayage.</p>
+                    Atelier 2STM est équipé pour assurer le service de fabrication et réparation de flexible sur mesure et garniture de frein et Embrayage.</p>
                     <h1 class="display-5 mb-4">FLEXIBLE HYDRAULIQUE</h1>
                     <p class="mb-4"  style="text-align: justify;">
                     Notre sertisseuse de flexibles hydrauliques est l’équipement sur lequel nous réalisons ce service. De plus, nous disposons d’un stock conséquent d’embouts, raccords et flexibles hydrauliques.

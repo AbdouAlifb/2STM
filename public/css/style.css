@@ -234,7 +234,30 @@ h6,
     background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/aboutH.jpg) center center no-repeat;
     background-size: cover;
 }
-
+.page-header1 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/tournageH.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header2 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/hydromecaniqueH.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header3 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/fraisageH.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header4 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/soudeurH.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header5 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/garnitureH.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header6 {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/maintenanceH.jpg) center center no-repeat;
+    background-size: cover;
+}
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
