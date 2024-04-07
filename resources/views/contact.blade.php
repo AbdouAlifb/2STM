@@ -79,9 +79,10 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">2STM</h1>
-    </a>
+            <a href="{{ route('home') }}" class="navbar-brand ps-5 me-0">
+            <img src="/img/logo.png" alt="2STM Logo" style="height: 70px;"> <!-- Adjust the height as necessary -->
+            <!-- <h1 class="text-white m-0">2STM</h1> -->
+        </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -169,11 +170,12 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="row mb-5">
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                     <iframe class="w-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.970327626493!2d-8.042997999999999!3d31.634662799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafef0d07bb0997%3A0xbc7ca86190de9500!2s2STM%20MAROC!5e0!3m2!1sfr!2sma!4v1712496659693!5m2!1sfr!2sma"
                         frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
             </div>
+
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="fw-medium text-uppercase  mb-2" style="color : #9F9E9F ;">CONTACTEZ-NOUS</p>
@@ -183,37 +185,37 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                  <form action="{{ route('contact.store') }}" method="POST">
-    @csrf
-    <div class="row g-3">
-        <div class="col-md-6">
-            <div class="form-floating">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                <label for="name">Votre nom</label>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-floating">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                <label for="email">Votre Email</label>
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="form-floating">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                <label for="subject">Sujet</label>
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="form-floating">
-                <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
-                <label for="message">Message</label>
-            </div>
-        </div>
-        <div class="col-12">
-            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-        </div>
-    </div>
-</form>
+                        @csrf
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    <label for="name">Votre nom</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    <label for="email">Votre Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                    <label for="subject">Sujet</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
 
                 </div>
             </div>

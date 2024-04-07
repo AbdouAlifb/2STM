@@ -24,7 +24,7 @@ class ContactMail extends Mailable
 
     public function build()
     {
-    return $this->from('ali.abdoufb@gmail.com')
+    return $this->from('contact@2stm-maroc.com')
     ->subject('Nouveau message de contact')
     ->view('contactM');
     }

@@ -126,58 +126,18 @@ s0.parentNode.insertBefore(s1,s0);
                     <p class="fw-medium text-uppercase  mb-2" style="color : #8C8C8C ;" >Qui sommes-nous ?</p>
                     <h1 class="display-5 mb-4">Nous sommes leaders sur le marché industriel</h1>
                     <p class="mb-4"  style="text-align: justify;">
-                    Installée à Marrakech, 2STM (Société Solutions Les Travaux Mécaniques)
-est une entreprise industrielle de maintenance, de réparation et d'usinage fondée
-il y a près de 30 ans par Mohamed BOUJGHAD.
+                    
+Fondée il y a plus de 30 ans à Marrakech par l'innovateur Mohamed BOUJGHAD, 2STM (Société Solutions Des Travaux Mécaniques) se distingue comme une force pionnière dans l'industrie de la maintenance industrielle et de l'usinage de matériaux. Avec une spécialisation pointue dans la réparation, l'usinage de petites séries et la soudure, 2STM façonne l'avenir de l'industrie en travaillant avec une vaste gamme d'aciers et de matières plastiques, permettant ainsi la création de matériaux innovants.
 
-2STM est spécialisée dans la réparation, l'usinage de petites séries et la
-soudure, l'entreprise charentaise travaille avec tous types d'aciers et de matières
-plastiques. Les réparations et aménagements de machines proposés par SI leur
-permettent l'élaboration de nouveaux matériaux.
+L'arsenal technique de 2STM comprend une rectifieuse cylindrique, quatre tours et trois fraiseuses traditionnelles, équipements qui témoignent de sa capacité à répondre aux exigences diversifiées de ses clients. La société brille particulièrement dans le domaine de la maintenance extérieure, offrant des solutions clés en main qui englobent le diagnostic, la réparation et la réinstallation de machines, garantissant ainsi une interaction fluide et centralisée pour les clients.
 
-L'entreprise est par ailleurs dotée de nombreuses machines : Une
-rectifieuse cylindrique, quatre tours et trois fraiseuses " traditionnelles"... pour
-répondre à des demandes très diverses de nombreuses entreprises.
+Dotée d'un vaste stock de matières premières et d'un parc de véhicules autonomes, 2STM s'appuie sur l'expertise de salariés dévoués, dont l'ancienneté moyenne dépasse les 30 ans, soulignant un savoir-faire transmis et affiné à travers les générations.
 
-Développant son offre dans la maintenance extérieure, 2STM propose des
-solutions clé en main, couvrant le ciblage de la panne, sa réparation et la
-réinstallation de la machine. Ce service permet aux clients de l'entreprise de
-n'avoir qu'un seul interlocuteur pour leurs projets.
+La collaboration avec 2STM est une expérience d'échange et d'innovation, où les défis sont abordés collectivement, propulsant l'entreprise et ses partenaires vers de nouveaux sommets. Son empreinte s'étend au-delà des frontières locales, desservant des entreprises de renom dans toutes les régions marocaines et dans des secteurs variés comme l'imprimerie, l'agroalimentaire, le BTP et la machinerie agricole.
 
-L'entreprise dispose d'un stock important de matières premières, d'un parc
-de véhicule autonome et d'un réel savoir-faire, porté par des salariés fidèles,
-comptant en moyenne plus de 30 ans d'ancienneté dans l'entreprise.
+Avec une équipe de plus de 15 collaborateurs et un chiffre d'affaires en croissance constante, 2STM incarne l'excellence et l'ambition, toujours prête à relever les défis d'un secteur en évolution. L'entreprise est un symbole de stratégie et de développement durable, visant la satisfaction totale de ses clients dans un marché compétitif.
 
-Les projets des clients de 2STM donnent lieu à de véritables échanges où
-les difficultés se règlent " autour d'une table " et où chacun se remet en question
-de façon permanente afin d'aider l'entreprise à progresser et évoluer. 
-Avec le développement des technologies, SI a étendu son activité bien au-delà
-de la Charente. Le transport n'étant plus une contrainte, 2STM intervient tant en
-Marrakech et tous les régions Marocaines pour de grandes entreprises de tout
-secteur. 
-Les clients de 2STM sont d'ailleurs très éclectiques, allant des TPE aux
-acteurs emblématiques de l'industrie, couvrant des secteurs aussi variés que
-l'imprimerie, l'agro-alimentaire, le BTP ou les entreprises de matériel agricole.
-
-2STM précise n'avoir que des retours positifs avec sa clientèle qui
-propose chaque jour de nouveaux défis à relever pour son équipe.
-
-2STM compte aujourd'hui plus de 15 collaborateurs, peut se targuer d'un
-chiffre d'affaires en progression constante.
-L'état esprit d'entrepreneur de l'entreprise a et ses perspectives de
-développement dans un secteur en perpétuelle évolution mais toujours empreint
-de savoir-faire artisanal.
-
-Notre entreprise est toujours dans un d’esprit d'entrepreneur de création des
-stratégies, des perspectives de développement, et formation continue soit court
-terme moyenne terme et long terme pour l'avenir sereinement, et satisfaction des
-clients.
-
-Dans un secteur qui est plein des concurrences et toujours d’évolution
-Notre objectif votre satisfaction
-
-Notre slogan <strong> « Nous ne sommes pas seuls mais nous sommes les meilleurs dans
-le secteur »</strong>
+« Nous ne sommes pas seuls, mais nous sommes les meilleurs dans le secteur. » Ce slogan résume l'essence de 2STM : un leader déterminé à innover, à exceller et à mener ses partenaires vers le succès.
                     </p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0  p-4"style="background-color : #9F9E9F ;">
