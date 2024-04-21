@@ -55,4 +55,8 @@ class PageController extends Controller
     {
         return view('services.hydromecanique');
     }
+    public function magazin()
+    {
+        return view('services.magazin');
+    }
 }

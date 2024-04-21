@@ -270,7 +270,27 @@ Equipè de 4 tours, capacité du 3 mètres jusque 6 mètres d'entre pointe.</p>
                         <a class="btn btn-light" href="{{ route('garniture') }}">En savoir plus</a>
                     </div>
                 </div>
-                
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="img/magazinA.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/magazinA.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">PIÈCES DE RECHANGE</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">
+                                2STM assure une maintenance rapide avec un service spécialisé en pièces de rechange, répondant immédiatement aux besoins de tous nos clients.
+                                </p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="{{ route('magazin') }}">En savoir plus</a>
+                    </div>
+                </div>
                 
                
             </div>

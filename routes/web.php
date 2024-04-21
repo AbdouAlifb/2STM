@@ -17,4 +17,5 @@ Route::get('/mecanique', [PageController::class, 'mecanique'])->name('mecanique'
 Route::get('/tournage', [PageController::class, 'tournage'])->name('tournage');
 Route::get('/maintenance', [PageController::class, 'maintenance'])->name('maintenance');
 Route::get('/hydromecanique', [PageController::class, 'hydromecanique'])->name('hydromecanique');
+Route::get('/magazin', [PageController::class, 'magazin'])->name('magazin');
 

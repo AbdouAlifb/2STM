@@ -122,7 +122,7 @@ s0.parentNode.insertBefore(s1,s0);
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
-                    <img class="w-100" src="img/carousel-5N.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-new.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -219,11 +219,13 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>
                         <div class="ms-4">
                             <p><i class="fa fa-check  me-2" style="color : #9F9E9F ;"></i>Maintenance</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Hydromécaniques</p>
                             <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Mécanique</p>
                             <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Soudeur</p>
                             <p><i class="fa fa-check  me-2"style="color :#9F9E9F ;"></i>Fraisage</p>
                             <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Tournage</p>
-                            <p class="mb-0"><i class="fa fa-check  me-2"></i>Flexible et Garniture</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Pièces de rechange</p>
+                            <p><i class="fa fa-check  me-2"style="color : #9F9E9F ;"></i>Flexible et Garniture</p>
                         </div>
                     </div>
                     <div class="row pt-2">
@@ -468,7 +470,7 @@ s0.parentNode.insertBefore(s1,s0);
             <a class="project-item" href="{{ route('mecanique') }}">
                 <img class="img-fluid" src="img/mecanique.jpg" alt="">
                 <div class="project-title">
-                    <h5 class=" mb-0" style="color : #EAEAEA ;">MÉCANIQUE Industrielle </h5>
+                    <h5 class=" mb-0" style="color : #EAEAEA ;">MÉCANIQUE  </h5>
                 </div>
             </a>
             <a class="project-item" href="{{ route('maintenance') }}">
@@ -499,6 +501,12 @@ s0.parentNode.insertBefore(s1,s0);
                 <img class="img-fluid" src="img/garniture.png" alt="">
                 <div class="project-title">
                     <h5 class=" mb-0"style="color : #EAEAEA ;">FLEXIBLE ET GARNITURE</h5>
+                </div>
+            </a>
+            <a class="project-item" href="{{ route('magazin') }}">
+                <img class="img-fluid" src="img/magazin.jpg" alt="">
+                <div class="project-title">
+                    <h5 class=" mb-0"style="color : #EAEAEA ;">Pièces de rechange</h5>
                 </div>
             </a>
             
