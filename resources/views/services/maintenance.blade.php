@@ -61,9 +61,6 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="h-100 d-inline-flex align-items-center text-white">
                     <span>Suivez-nous:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 text-end">
@@ -231,9 +228,7 @@ Notre équipe 2STM intervient de plusieurs manières :
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">2STM-MAROC</a>, All Right Reserved.
             </p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0" style="font-size: 7px;">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed By: <a href="https://themewagon.com">ThemeWagon</a></p>
-
+           
         </div>
     </div>
     <!-- Copyright End -->

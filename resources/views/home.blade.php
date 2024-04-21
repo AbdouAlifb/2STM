@@ -245,7 +245,7 @@ s0.parentNode.insertBefore(s1,s0);
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Appelez-nous</p>
-                                    <h5 class="mb-0">08 08 57 57 21 <br> +212-6 61 34 24 06</h5>
+                                    <h5 class="mb-0">08 08 57 57 21 <br> +212-6 61 20 95 13</h5>
                                 </div>
                             </div>
                         </div>
@@ -671,11 +671,9 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4" >
         <div class="container text-center">
-            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">2STM-MAROC</a>, All Right Reserved.
+            <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="https://2stm-maroc.com/">2STM-MAROC</a>, All Right Reserved.
             </p>
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0" style="font-size: 7px;">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed By: <a href="https://themewagon.com">ThemeWagon</a></p>
-
+           
         </div>
     </div>
     <!-- Copyright End -->
